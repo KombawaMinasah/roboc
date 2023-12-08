@@ -7,13 +7,13 @@ class Config(object):
 
     CASH_API_KEY = "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"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = "mongodb+srv://biawakbatam:1234@cluster0.87jdbad.mongodb.net/?retryWrites=true&w=majority"  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgresql://ruhwehxs:uUx8rkqaoghtwxwjiVRDc8yJxQ1IJxq6@john.db.elephantsql.com/ruhwehxs"  # A sql database url from elephantsql.com
 
     EVENT_LOGS = (-1001881201311)  # Event logs channel to note down important bot level events
 
     MONGO_DB_URI = "mongodb+srv://biawakbatam:1234@cluster0.87jdbad.mongodb.net/?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
 
-    # Telegraph link of the image which will be shown at start command.
+    # T yg, elegraph link of the image which will be shown at start command.
     START_IMG = "https://te.legra.ph/file/40eb1ed850cdea274693e.jpg"
 
     SUPPORT_CHAT = "neroosuport"  # Your Telegram support group chat username where your users will go and bother you
